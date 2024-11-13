@@ -1,0 +1,255 @@
+* {
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+
+header {
+    display: flex;
+}
+#logo {
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+}
+
+
+#menu_superior {
+    display: flex;
+    flex-direction: row;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    justify-content: start;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    --rem: 16
+}
+
+#menu_superior li {
+    background-color: rgb(206, 0, 206);
+    font-size: 130%; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style: none;
+    margin: 0px;
+}
+
+
+
+#patron {
+   height: 100px;
+    width: 100%;
+    background-image: url("pattern.jpg");
+    background-size: auto;
+    border-bottom:dashed;
+    border-top: dashed;
+}
+
+header #letras {
+    justify-content: center;
+    align-items: first baseline;
+    padding-inline: 150px;
+    margin: 0px;
+    background-color: rgb(22, 1, 59);
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+header #letras h1 {
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+}
+
+header #letras h2 {
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+}
+
+#fotofrontal {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+#fotofrontal img {
+    width: 100%;
+    height: 300px;
+    border-bottom: dashed;
+
+}
+
+#tabla {
+    display: flex;
+    border: 10px solid black;
+}
+
+.tabla {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+      margin-top: 0px;
+    margin-top: 20px !important;
+    
+  }
+  
+  #fila_lila{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: purple;
+    font-weight: bold;
+  }
+
+  #fila_lila .columna{
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  .fila {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .header {
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .columna {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  .fila:nth-child(odd) {
+    background-color: #f0f0f0;
+  }
+  
+  .fila:nth-child(even) {
+    background-color: #c0c0c0;
+  }
+  
+  #CajaDeTabla {
+    background-color: gray;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    height: 250px;
+  }
+
+  #CajaDeTabla h2 {
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+  }
+  
+
+  #FotosLenguajes {
+    display: flex;
+    justify-content: center;
+    border-top: dashed;
+    border-bottom: dashed;
+    height: 300px;
+  }
+
+  
+  #FotosLenguajes #javascript img {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  #FotosLenguajes #javascript {
+    width: 25%;
+  }
+
+  #FotosLenguajes #javascript p {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  #FotosLenguajes #angular img {
+    width: 100%;
+  }
+
+  #FotosLenguajes #angular {
+    border: 1px solid black;
+    width: 25%;
+  }
+
+  #FotosLenguajes #angular p {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  
+  #FotosLenguajes #php img {
+    width: 100%;
+  }
+
+  #FotosLenguajes #php {
+    border: 1px solid black;
+    width: 25%;
+  }
+
+  #FotosLenguajes #php p {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  
+  #FotosLenguajes #html5 img {
+    width: 100%;
+  }
+
+  #FotosLenguajes #html5 {
+    width: 25%;
+  }
+
+  #FotosLenguajes #html5 p {
+    text-align: center;
+    font-weight: bold;
+
+  }
+
+  footer {
+    background-color: rgb(22, 1, 59);
+    color: white;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  .texto_izquierdo {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+  }
+  
+  .texto_derecho {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 12px;
+  }
+  
